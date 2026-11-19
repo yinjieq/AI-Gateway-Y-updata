@@ -1,9 +1,9 @@
 {
-  "version": "0.9.17",
-  "minVersion": "0.9.9",
   "force": false,
-  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.17.exe",
+  "minVersion": "0.9.9",
+  "notes": "智能路由页：上下文区间移到标题与数量之间；每个模型行显示自己的上下文大小；▲▼ 按上下文排序。",
+  "downloadName": "AI-Gateway-Setup-0.9.18.exe",
   "publishedAt": "2026-11-20",
-  "notes": "智能路由页：候选链与可用模型池标题显示上下文大小区间，▲▼ 按上下文排序（▲ 上大下小 / ▼ 上小下大）。"
+  "version": "0.9.18",
+  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest"
 }
