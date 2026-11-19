@@ -1,9 +1,9 @@
 {
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.20.exe",
-  "publishedAt": "2026-11-20",
+  "downloadName": "AI-Gateway-Setup-0.9.22.exe",
+  "notes": "智能路由页：上下文列真正对齐（标题与行结构同构 + 滚动条宽度补偿），CDP 实测偏差 0px。",
+  "force": false,
   "minVersion": "0.9.9",
-  "version": "0.9.20",
-  "notes": "智能路由页：上下文列改为固定宽度，标题「上下文 ▲▼」与每行尺寸竖向对齐。",
-  "force": false
+  "version": "0.9.22",
+  "publishedAt": "2026-11-20"
 }
