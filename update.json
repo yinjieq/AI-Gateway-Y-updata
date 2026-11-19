@@ -1,9 +1,9 @@
 {
-  "downloadName": "AI-Gateway-Setup-0.9.19.exe",
+  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
+  "downloadName": "AI-Gateway-Setup-0.9.20.exe",
   "publishedAt": "2026-11-20",
   "minVersion": "0.9.9",
-  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "version": "0.9.19",
-  "notes": "智能路由页：上下文大小居中显示，「加入」按钮位置恢复原样；标题区间在标题与数量之间。",
+  "version": "0.9.20",
+  "notes": "智能路由页：上下文列改为固定宽度，标题「上下文 ▲▼」与每行尺寸竖向对齐。",
   "force": false
 }
