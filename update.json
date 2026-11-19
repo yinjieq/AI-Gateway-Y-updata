@@ -1,0 +1,9 @@
+{
+  "version": "0.9.14",
+  "minVersion": "0.9.9",
+  "force": false,
+  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
+  "downloadName": "AI-Gateway-Setup-0.9.14.exe",
+  "publishedAt": "2026-11-20",
+  "notes": "0.9.14：账号停用/删除后模型目录立即跟随（不等快照 TTL）；Trae 的 custom_model_* 与内部条目（summary/sagitta/aquila/file_search_agent/computer_use_subagent）默认隐藏，「只暴露可用模型」改为默认开启；更新检查改指向本仓库。"
+}
