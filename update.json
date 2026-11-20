@@ -1,9 +1,9 @@
 {
-  "version": "0.9.23",
+  "version": "0.9.24",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.23.exe",
+  "downloadName": "AI-Gateway-Setup-0.9.24.exe",
   "publishedAt": "2026-11-20",
-  "notes": "0.9.23：账号表「说明」列 88px → 200px，长说明不再被省略号截断，余额/状态两列随之左移；仓库清理（补回 .gitignore 规则、巡检产物移出索引、一次性脚本归档到 tools/archive）。"
+  "notes": "0.9.24：新增识图能力探测——上游目录普遍不声明视觉能力，现在可用纯色图逐模型实测并把结论补进 /v1/models；新增 input_modalities 字段，DSH 等客户端据此决定是否允许贴图。"
 }
