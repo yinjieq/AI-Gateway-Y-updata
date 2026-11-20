@@ -1,9 +1,9 @@
 {
-  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.22.exe",
-  "notes": "智能路由页：上下文列真正对齐（标题与行结构同构 + 滚动条宽度补偿），CDP 实测偏差 0px。",
-  "force": false,
+  "version": "0.9.23",
   "minVersion": "0.9.9",
-  "version": "0.9.22",
-  "publishedAt": "2026-11-20"
+  "force": false,
+  "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
+  "downloadName": "AI-Gateway-Setup-0.9.23.exe",
+  "publishedAt": "2026-11-20",
+  "notes": "0.9.23：账号表「说明」列 88px → 200px，长说明不再被省略号截断，余额/状态两列随之左移；仓库清理（补回 .gitignore 规则、巡检产物移出索引、一次性脚本归档到 tools/archive）。"
 }
