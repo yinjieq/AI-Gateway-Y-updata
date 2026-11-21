@@ -1,9 +1,9 @@
 {
-  "version": "0.9.25",
+  "version": "0.9.26",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.25.exe",
+  "downloadName": "AI-Gateway-Setup-0.9.26.exe",
   "publishedAt": "2026-11-21",
-  "notes": "0.9.25：新增百度搭子（DuMate）供应商——22 个模型、聊天转发、每日签到、积分查询。登录由桌面客户端弹出窗口完成，自动读取 httpOnly Cookie，无需手动复制。"
+  "notes": "0.9.26：新增「公告」页（侧边栏独立一栏，内容从远端拉取，不用更新程序就能看到新公告）；概览页检测到新版本时可展开「更新详情」。"
 }
