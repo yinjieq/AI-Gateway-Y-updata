@@ -1,9 +1,9 @@
 {
-  "version": "0.9.24",
+  "version": "0.9.25",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.24.exe",
-  "publishedAt": "2026-11-20",
-  "notes": "0.9.24：新增识图能力探测——上游目录普遍不声明视觉能力，现在可用纯色图逐模型实测并把结论补进 /v1/models；新增 input_modalities 字段，DSH 等客户端据此决定是否允许贴图。"
+  "downloadName": "AI-Gateway-Setup-0.9.25.exe",
+  "publishedAt": "2026-11-21",
+  "notes": "0.9.25：新增百度搭子（DuMate）供应商——22 个模型、聊天转发、每日签到、积分查询。登录由桌面客户端弹出窗口完成，自动读取 httpOnly Cookie，无需手动复制。"
 }
