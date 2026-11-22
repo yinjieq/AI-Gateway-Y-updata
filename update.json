@@ -1,9 +1,9 @@
 {
-  "version": "0.9.26",
+  "version": "0.9.27",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.26.exe",
-  "publishedAt": "2026-11-21",
-  "notes": "0.9.26：新增「公告」页（侧边栏独立一栏，内容从远端拉取，不用更新程序就能看到新公告）；概览页检测到新版本时可展开「更新详情」。"
+  "downloadName": "AI-Gateway-Setup-0.9.27.exe",
+  "publishedAt": "2026-11-23",
+  "notes": "0.9.27：新增第 9 家供应商「豆包」（Cookie 登录 + 15 个模型 + 签到 + 额度查询）。注意：豆包原生只支持聊天，不支持工具调用；它也无法访问本地文件。需要工具调用请用 Trae / WorkBuddy / 百度搭子。"
 }
