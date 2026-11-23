@@ -63,24 +63,23 @@
       ]
     },
     {
-      "id": "release-0.9.29",
-      "title": "版本 0.9.29 更新说明",
+      "id": "release-0.9.30",
+      "title": "版本 0.9.30 更新说明",
       "date": "2026-11-23",
       "tag": "更新",
       "body": [
-        "### 修复",
+        "### 改动",
         "",
-        "- **安装时「结束正在运行的程序」失败**：升级安装时如果 AI Gateway 还在跑，",
-        "  Inno Setup 会问「是否关闭」，选「是」之后**窗口消失但进程没退**，文件锁没释放，",
-        "  安装卡在覆盖 `AI Gateway.exe` 这一步。",
-        "  - **原因**：Inno 的做法是给窗口发 `WM_CLOSE`，而本程序点 X 是**收进托盘**",
-        "    （`OnFormClosing` 里 `e.Cancel = true` + `Hide()`），窗口隐藏了、进程还活着。",
-        "    这是常驻服务的正常行为，不是 bug——但对安装程序来说等于「关不掉」。",
-        "  - **修法**：关掉 Inno 自带的 `CloseApplications`，在 `PrepareToInstall` 里自己接管：",
-        "    用 `tasklist` 检测进程 → **弹窗询问用户** → 同意后 `taskkill /F /T`",
-        "    （`/T` 连子进程 `javaw.exe` 一起终止，避免后端变孤儿进程占着数据目录）→",
-        "    等 1.2 秒让文件锁释放。",
-        "  - **保留了「询问」这一步**：不静默强杀。用户选「否」则中止安装并提示手动退出。"
+        "- **构建流水线升级到 Node 24**：GitHub Actions 弃用 Node 20，每次构建都会出两条警告。",
+        "  三个 action 原本声明跑在 Node 20 上，现在被强制在 Node 24 上运行。",
+        "  - `actions/checkout@v4` → `v5`、`actions/setup-java@v4` → `v5`、",
+        "    `actions/upload-artifact@v4` → `v6`。",
+        "  - **`upload-artifact` 要升到 v6 而不是 v5**：它的 v5 的 `action.yml` 里",
+        "    `runs.using` 仍是 `node20`，升到 v5 只把警告从 3 条减到 1 条，v6 才真正切到 `node24`。",
+        "    这一点从版本号看不出来，得读 `action.yml` 才能确认。",
+        "  - 输入参数（`name` / `path` / `if-no-files-found` / `retention-days` /",
+        "    `compression-level`）v5 与 v6 一致，用法不用改。",
+        "  - 只影响 CI 配置，安装包内容与上一版相同。"
       ]
     }
   ]

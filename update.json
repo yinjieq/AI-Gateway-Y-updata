@@ -1,9 +1,9 @@
 {
-  "version": "0.9.29",
+  "version": "0.9.30",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.29.exe",
+  "downloadName": "AI-Gateway-Setup-0.9.30.exe",
   "publishedAt": "2026-11-23",
-  "notes": "0.9.29：修复升级安装时「结束正在运行的程序」失败——程序点 X 是收进托盘、进程不退，Inno 发的关闭信号无效，导致覆盖 exe 时文件被占用。现在安装前会检测进程并询问，同意后用 taskkill 连子进程一起结束。"
+  "notes": "0.9.30：构建流水线升级到 Node 24（GitHub Actions 弃用 Node 20，每次构建出两条警告）。只影响 CI 配置，安装包内容与 0.9.29 相同。"
 }
