@@ -1,9 +1,9 @@
 {
-  "version": "0.9.30",
+  "version": "0.9.31",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.30.exe",
+  "downloadName": "AI-Gateway-Setup-0.9.31.exe",
   "publishedAt": "2026-11-23",
-  "notes": "0.9.30：构建流水线升级到 Node 24（GitHub Actions 弃用 Node 20，每次构建出两条警告）。只影响 CI 配置，安装包内容与 0.9.29 相同。"
+  "notes": "0.9.31：相对 0.9.30 —— 新增「可用模型池」筛选框（按模型名或模型 id 双匹配、不区分大小写）；修复点「清理失效候选」后候选链不刷新（要切页才更新）；修复智能路由页两个列表被固定 420px 截断、下方留白。纯前端改动。"
 }
