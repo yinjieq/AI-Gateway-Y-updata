@@ -1,9 +1,9 @@
 {
-  "version": "0.9.31",
+  "version": "0.9.32",
   "minVersion": "0.9.9",
   "force": false,
   "downloadUrl": "https://github.com/yinjieq/AI-Gateway-Y/releases/latest",
-  "downloadName": "AI-Gateway-Setup-0.9.31.exe",
-  "publishedAt": "2026-11-23",
-  "notes": "0.9.31：相对 0.9.30 —— 新增「可用模型池」筛选框（按模型名或模型 id 双匹配、不区分大小写）；修复点「清理失效候选」后候选链不刷新（要切页才更新）；修复智能路由页两个列表被固定 420px 截断、下方留白。纯前端改动。"
+  "downloadName": "AI-Gateway-Setup-0.9.32.exe",
+  "publishedAt": "2026-11-24",
+  "notes": "0.9.32：修复 WorkBuddy / CodeBuddy 厂商指纹校验（400 Illegal API invocation from an unapproved channel）。DSH 注入的自我介绍句「You are a coding agent powered by the xxx model.」不含品牌词，原规则碰不到，导致整家厂商被判渠道校验失败；现按句式补三条指纹规则。codebuddy-cn/hy4flash-free 实测连续 10 次成功。"
 }
